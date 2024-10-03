@@ -1,3 +1,4 @@
+
 import React from "react";
 
 import Hero from "./Hero";
@@ -8,7 +9,7 @@ import Universe from "./Universe";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-function PricingPage() {
+function ProductPage() {
   return (
     <>
       <Hero />
@@ -51,13 +52,13 @@ function PricingPage() {
         googlePlay=""
         appStore=""
       />
-      <p className="text-center mt-5 mb-5">
-        Want to know more about our technology stack? Check out the Zerodha.tech
-        blog.
+      <p className="text-center mt-5 mb-5 fs-3">
+        Want to know more about our technology stack? Check out the <a href="https://zerodha.tech/" style={{textDecoration:"none"}}>Zerodha.tech</a>
+        &nbsp;blog.
       </p>
       <Universe />
     </>
   );
 }
 
-export default PricingPage;
+export default ProductPage;

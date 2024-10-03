@@ -13,43 +13,75 @@ function Footer() {
           </div>
           <div className="col">
             <p>Company</p>
-            <a href="" style={{textDecoration:"none"}}>About</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              About
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Products</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Products
+            </a>
             <br />
-            <a href=" " style={{textDecoration:"none"}}>Pricing</a>
+            <a href=" " style={{ textDecoration: "none" }}>
+              Pricing
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Referral programme</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Referral programme
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Careers</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Careers
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Zerodha.tech</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Zerodha.tech
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Press & media</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Press & media
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Zerodha cares (CSR)</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Zerodha cares (CSR)
+            </a>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a href=" " style={{textDecoration:"none"}}>Contact</a>
+            <a href=" " style={{ textDecoration: "none" }}>
+              Contact
+            </a>
             <br />
-            <a href=""style={{textDecoration:"none"}}>Support portal</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Support portal
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Z-Connect blog</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Z-Connect blog
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>List of charges</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              List of charges
+            </a>
             <br />
-            <a href=""style={{textDecoration:"none"}} >Downloads & resources</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Downloads & resources
+            </a>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="" style={{textDecoration:"none"}}>Open an account</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Open an account
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>Fund transfer</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              Fund transfer
+            </a>
             <br />
-            <a href="" style={{textDecoration:"none"}}>60 day challenge</a>
+            <a href="" style={{ textDecoration: "none" }}>
+              60 day challenge
+            </a>
             <br />
           </div>
         </div>
@@ -99,7 +131,35 @@ function Footer() {
             create a ticket here.
           </p>
         </div>
-        NSE BSE MCX Terms & conditions Policies & procedures Privacy policy Disclosure For investor's attention Investor charter
+        <p>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px"}}>
+            NSE
+          </a>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px"}}>
+            BSE
+          </a>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px"}}>
+            MCX
+          </a>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px"}}>
+            Terms & conditions
+          </a>
+          <a href="" style={{ textDecoration: "none",marginRight:"20px"}}>
+            Policies & procedures
+          </a>
+          <a href="" style={{ textDecoration: "none",marginRight:"20px"}}>
+            Privacy policy
+          </a>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px"}}>
+            Disclosure
+          </a>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px" }}>
+            For investor's attention
+          </a>
+          <a href="" style={{ textDecoration: "none", marginRight:"20px" }}>
+            Investor charter
+          </a>
+        </p>
       </div>
     </footer>
   );

@@ -1,16 +1,17 @@
-import React from "react";
-import Hero from "./Hero";
-import Brokerage from "./Brokerage";
-import OpenAccount from "../OpenAccount";
+import React from 'react'
+import Hero from './Hero'
+import Brokerage from './Brokerage'
+import OpenAccount from '../OpenAccount'
 
 function PricingPage() {
-  return (
+  return ( 
     <>
-      <Hero />
-      <OpenAccount />
-      <Brokerage />
+    <Hero />
+    <OpenAccount />
+    <Brokerage />
+
     </>
-  );
+   );
 }
 
 export default PricingPage;
